@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import css from 'components/FilteredContacts/FilteredContacts.module.css';
+import PropTypes from 'prop-types';
 
 export class FilteredContacts extends Component {
   // state = {
@@ -22,8 +23,16 @@ export class FilteredContacts extends Component {
     return (
       <label className={css.searchCointainer}>
         Find contacts by name
-        <input className={css.inputStyle} onChange={this.handleInputChange} type="text" />
+        <input
+          className={css.inputStyle}
+          onChange={this.handleInputChange}
+          type="text"
+        />
       </label>
     );
   }
 }
+
+FilteredContacts.propTypes = {
+  onChange: PropTypes.func,
+};

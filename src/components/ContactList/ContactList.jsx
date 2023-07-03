@@ -3,8 +3,6 @@ import css from 'components/ContactList/ContactList.module.css';
 import PropTypes from 'prop-types';
 
 export class ContactList extends Component {
-  deleteContact = () => {};
-
   render() {
     const { contacts, deleteContact } = this.props;
     return (
@@ -33,5 +31,6 @@ export class ContactList extends Component {
 }
 
 ContactList.propTypes = {
-  contacts: PropTypes.array.isRequired,
+  contacts: PropTypes.array,
+  deleteContact: PropTypes.func,
 };
