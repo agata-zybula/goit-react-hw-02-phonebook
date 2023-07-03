@@ -1,0 +1,9 @@
+.searchCointainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputStyle {
+  margin-top: 5px;
+  max-width: 30%;
+}

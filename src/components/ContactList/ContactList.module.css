@@ -1,0 +1,23 @@
+.contactsContainer {
+  margin: 0 auto;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.listStyle {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.listItem {
+  padding: 5px;
+}
+
+.buttonDelete {
+  margin-left: 20px;
+}

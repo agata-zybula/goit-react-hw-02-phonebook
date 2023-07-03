@@ -1,0 +1,42 @@
+.formContainer {
+  margin: 0 auto;
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.inputStyle {
+  margin-bottom: 10px;
+  max-width: 200px;
+}
+
+.buttonStyle {
+  max-width: 100px;
+  margin-top: 10px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  max-width: 50%;
+  padding: 20px;
+  border-radius: 4px;
+}
